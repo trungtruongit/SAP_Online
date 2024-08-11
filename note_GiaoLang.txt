@@ -1,0 +1,125 @@
+ERP - Enterpise Resource Planning - quản lý hoạch định nguồn lực doanh nghiệp
+
+Quản lí: tài sản, con người, quy trình, công nợ, kho hàng, kho thành phẩm, kho nguyên vật liệu, chăm sóc khách hàng
+
+Key terms:
+- Odoo(On-Demand-Open-Object)
+- SAP: System Analyst Program Development: Phát triển chương trình phân tích hệ thống
+- SAP HANA (High-performance Ânlystic Appliance) is a multi-model database that stores data in its memory instead of keeping it on a disk. The column-oriented in-memory database design allows you to run advanced analytics alongside high-speed transactions - in a single system. (HANA means flower in Japanese)
+-S/4 HANA stands for SAP Business Suite 4 SAP HANA
+- S/4 HANA is offered on two different platforms: On-Premise or Cloud 
+	+ On-Premise: is located on your organization's own servers and managed in-house. It has an annual innovation cycle with several smaller updates each year.
+	+ Cloud: is hosted externally on SAP's servers and maintained by SAP. It has a quarterly innovation cycle
+- SAP ECC(SAP ERP Central Component) This is the predecessor for SAP S/4HANA 
+- SAP GUI: is SAPs universal UI technology for working with SAP systems
+- SAP Fiori: is the new SAP interface
+- SAPUI5: SAP user interface for HTML5 (SAPUI5) - the collection of libraries that are used to build desktop and mobile applications
+- ABAP (Advanced Business Application Programming) is the primary programming language supported on the SAP NetWeaver ABAP application server platform and applications that run on it, such as SAP ERP (formerly R/3), S/4HANA and CRM
+
+BEFORE ERP:
+- Independent system for each department
+- The data is distributed, difficult to control and make an overall report
+- High operating and maintenance
+- Difficult to optimize operating processes
+
+Trước ERP mỗi phòng ban phải có DB để tự quản lý: Human, CRM, Warehouse, Asset, Finance, Production
+
+IPM làm ra 1 con máy personal computer
+
+thành ra PC là 1 loại máy tính đc gọi chung, thật chất personal computer là 1 loại của IPM
+
+Thông tin có thể bị duplicate
+
+ERP:
+- Enhaced Business Reporting
+- Better customer service
+- Increase competitiveness compared to competitors
+- Better Data & Cloud Security
+- Cost savings 
+And so on
+
+1972, 5 kỹ sư nghỉ IBM ra thành lập công ty SAP, chủ trương theo hướng quản lý hoạch định doanh nghiệp (ERP)
+
+ERP vendors 
+SAP, ORACLE, MICROSOFT
+
+ERP Customers
+Apple, Walmart, Amazon, GG, BigC, Vingroup, ACB, Novaland, Vinamilk
+
+SAP S/4HANA instead of using the DB by Oracle like the SAP R/3 and SAP ECC. now SAP S/4HANA using the database by own self. and using the Database by memory instead of disk 
+
+SAP have the most popular is SD: Sales and Distribution, then MM: Material Management
+Stakeholders: những ng liên quan đến thành bại của dự án 
+
+SAP Jobs
+Partner					Customer
+- Project manger			- IT Person
+- Functional Consultant			- Business Owner
+- Technical Consultant			- Key User
+- Basis Consultant			- End User
+
+1. ERP Consultant: Consultants assist organizations in implementing, customizing, and optimizing ERP systems. They work closely with clients to understand business requirement and ensure the successful deployment of ERP solutions
+2. ERP Analyst: Analysts focus on analyzing data, identifying trends, and genarating insights from ERP systems. They play a crucial role in improving processes and recommending enhancements to maximize system efficiency
+3. ERP Project Manager: Project managers oversee the implementation of ERP systems. They are responsible for project planning, coordination, and ensuring that the ERP solution meets the organiztion's needs
+4. ERP Developer: Developers specialize in customizing and programming ERP software to align with specific business requirements. They may also be involved in integrating ERP system with other software applications
+5. ERP Trainer: Trainers educate end-users on how to effectively use ERP systems. They develop training materials, conduct workshops, and provide ongoing support to ensure users can leverage the full potential of the ERP software
+6. ERP Support Specialist: Support specialists provide ongoing assistance to users, troubleshoot issues, and ensure the smooth functioning of ERP systems. They play a vital role in maintaing system integrity and réolveing techincal issues
+
+Tại sao lại phải sử dụng SAP thay vì những phần mềm kế toán nhỏ và vừa hơn vd như là MISA?
+- Toàn cầu, khi mà công ty của bạn cbi lên sàn chứng khoán ở nc ngoài, transparency: sự minh bạch hoá trong dữ liệu. Đã lỡ insert 1 cái enter dữ liệu vô rồi thì không có khái niệm undo. Lỡ insert sai thì phải xài bước toán truy ngược lại chứ không có khái niệm delete. Khi muốn IPO lên sàn chứng khoán hay bất cứ điều gì đó. Bảo chứng, chứng thực để đảm bảo mình có một sự minh bạch nhất định process 
+
+On-Premise vs Cloud vd như là (office 2021 vs office 365)
+
+Cloud(office 365) là bỏ tiền ra thuê hàng tháng tên miền, tk server bên SAP cấp cho
++ những tính năng mới nhất
++ ko cần lo về phấn cứng nơi lưu trữ
++ server do SAP quản lí
+
+On-premise(office 2021) là lấy bộ cài từ SAP xong tải về máy mình
++ server ko do SAP quản lí
+- định kì phải chủ động update
+
+môi trường staging có nghĩa là sau khi dev đã code xong tạo 1 môi trường khác để test và sau khi test thành công thì bê môi trường cấu hình y chang vậy để làm ra app. Sau này mình code trên server khác ngoài công ty ko dính dáng gì đến server công ty hết
+Deploy SAP application for a specific purpose 
+
+FIORI là UI là màn hình trên web mà chúng ta trải nghiệm các tính năng của SAP. Đồng nghĩa hoạt động của doanh nghiệp trên màn hình này
+Dùng ngôn ngữ lập trình ABAP
+
+Trước năm 2015 ko có UI hay đc gọi là FIORI sau đợt update SAP 4/HANA mới có FIORI UI cho ng dùng
+Trước 2015 xài SAP GUI app của window 
+
+Module SD lun lun là module đầu tiên và cốt lỗi của ERP
+one size can not fit all
+
+SAP S/4HANA cho customize a lot 
+
+Nguyên tắc làm app 3 chữ cơ bản
+IPO: Input process output
+ERP: lưu trữ thông tin xử lý nó và đẩy lại thông tin
+
+Có 3 loại data type sẽ đc lưu trữ trong ERP
+- Oranizational Data: Cấu trúc của 1 công ty 
+	+ Company code: vd có 2 nhà máy Samsung ở SG và BN 
+	+ Plant: nhà kho nhà xưởng nơi tập kết nguyên vật liệu
+=> Cơ cấu tổ chức công ty
+=> Ít thay đổi có độ ổn định rất cao, nhập lần đầu rùi xài lun, lâu lâu thay đổi
+
+- Master Data: Liên quan đến làm ăn mua bán
+	VD: thông tin khách hàng
+	    thông tin sản phẩm
+=> Có tính ổn định cao
+
+- Transaction Data: là những biến động mua bán có xài đến master data
+	VD: thanh toán 1 đơn hàng MOMO thì transaction data xuất hiện nhma thông tin của bạn account đó thì master data
+
+Client là 1 con số, mỗi con số sẽ là 1 workspace, enviroment riêng dành cho bn để bn mún làm j phụ thuộc vào bn. VD 101 dùng để code, 102 dùng để test, 103 dùng để deploy publish cho user dùng
+
+
+AS IS SYSTEM 	vs	TO BE SYSTEM
+ hiện trạng		  tương lai
+LEGACY SYSTEM
+
+New Implementation: chưa có j cả
+System Conversion: đã có ERP rùi mà chưa có HANA
+Landscape Transformation: đã có ERP và nằm rải rác khắp nơi rùi mún tích hợp lại trọn vẹn hơn
+
